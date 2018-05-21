@@ -111,10 +111,10 @@ services:
   drill:
     build: ./apache-drill-docker/1.13.0
     volumes:
-      - drill-data:/data:ro
-    #ports:
-    #  - "8047:8047"
-    #  - "31010:31010"
+      - c:/data:/data:ro
+    ports:
+      - "8047:8047"
+      - "31010:31010"
 
 volumes:
   db-data: {}

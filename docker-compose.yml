@@ -117,5 +117,5 @@ services:
     #  - "31010:31010"
 
 volumes:
-  db-data: {}
+  db-data: /data/api-platform/db-data
   drill-data: /data

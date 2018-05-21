@@ -108,5 +108,14 @@ services:
       - "8443:8443"
       - "8444:8444"
 
+  drill:
+    build: ./apache-drill-docker/1.13.0
+    volumes:
+      - drill-data:/var/lib/postgresql/data:ro
+    #ports:
+    #  - "8047:8047"
+    #  - "31010:31010"
+
 volumes:
   db-data: {}
+  drill-data: /data

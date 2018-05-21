@@ -1,0 +1,3 @@
+[submodule "apache-drill-docker"]
+	path = apache-drill-docker
+	url = https://github.com/mkieboom/apache-drill-docker.git

@@ -118,4 +118,3 @@ services:
 
 volumes:
   db-data: {}
-  drill-data: {}

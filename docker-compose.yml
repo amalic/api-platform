@@ -109,7 +109,7 @@ services:
       - "8444:8444"
 
   drill:
-    build: ./apache-drill-docker/1.13.0
+    build: ./drill
     volumes:
       - c:/data:/data:ro
     ports:

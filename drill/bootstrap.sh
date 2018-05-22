@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 #
 # Start Apache Drill in embedded mode
 # https://drill.apache.org/docs/starting-drill-on-linux-and-mac-os-x/
